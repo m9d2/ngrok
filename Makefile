@@ -18,6 +18,9 @@ client: deps
 
 assets: client-assets server-assets
 
+debug:
+    @make --just-print compile
+
 bin/go-bindata:
 	GOOS="" GOARCH="" go get github.com/jteeuwen/go-bindata/go-bindata
 
