@@ -1,5 +1,5 @@
 .PHONY: default server client deps fmt clean all release-all assets client-assets server-assets contributors
-export GOPATH:=/usr/local/go
+export GOPATH:=/root/go
 
 BUILDTAGS=debug
 default: all
